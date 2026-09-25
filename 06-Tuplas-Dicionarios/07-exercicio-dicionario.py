@@ -18,6 +18,7 @@ alunos = {
     "Pedro": 18
 }
 
-for aluno in alunos:
-    if aluno[1] >= 18:
-        print(f"{aluno[0]} é maior de idade: {aluno[1]}")
+for nome, idade in alunos.items():
+
+    if idade >= 18:
+        print(f"{nome} é maior de idade: {idade}")
